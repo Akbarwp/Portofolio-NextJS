@@ -7,7 +7,7 @@ import Layout from '@/components/Layout';
 
 import photo1 from '../../public/gallery/1.jpg';
 import photo2 from '../../public/gallery/2.jpg';
-import photo3 from '../../public/gallery/3.jpg';
+import photo18 from '../../public/gallery/18.jpg';
 import photo4 from '../../public/gallery/4.jpg';
 import photo5 from '../../public/gallery/5.jpg';
 import photo6 from '../../public/gallery/6.jpg';
@@ -36,7 +36,7 @@ export default function gallery() {
                     <div className='grid grid-cols-0 md:grid-cols-4 items-center justify-center'>
                         <Image priority src={photo1} alt={'photo1'} className='w-full h-full hover:scale-105 transition' />
                         <Image priority src={photo4} alt={'photo4'} className='w-full h-full row-span-0 col-span-0 md:row-span-2 md:col-span-2 hover:scale-105 transition' />
-                        <Image priority src={photo3} alt={'photo3'} className='w-full h-full md:row-span-2 hover:scale-105 transition' />
+                        <Image priority src={photo18} alt={'photo18'} className='w-full h-full md:row-span-2 hover:scale-105 transition' />
                         <Image priority src={photo2} alt={'photo2'} className='w-full h-full hover:scale-105 transition' />
                         <Image priority src={photo5} alt={'photo5'} className='w-full h-full row-span-0 col-span-0 md:row-span-2 md:col-span-2 hover:scale-105 transition' />
                         <Image priority src={photo6} alt={'photo6'} className='w-full h-full hover:scale-105 transition' />
