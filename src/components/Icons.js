@@ -26,7 +26,7 @@ export const LinkedInIcon = ({className, ...rest}) => (
 
 export const GithubIcon = ({className, ...rest}) => (
     <svg
-        className={`${className} fill-current text-[#181717] dark:text-light`}
+        className={`${className} fill-current`}
         viewBox="0 0 24 24"
         xmlns="http://www.w3.org/2000/svg"
         {...rest}
@@ -38,7 +38,7 @@ export const GithubIcon = ({className, ...rest}) => (
 
 export const ShowwcaseIcon = ({className, ...rest}) => (
     <svg
-        className={`${className} fill-current text-black dark:text-light`}
+        className={`${className} fill-current`}
         viewBox="0 0 100 90"
         xmlns="http://www.w3.org/2000/svg"
         {...rest}

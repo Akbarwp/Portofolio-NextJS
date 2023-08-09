@@ -32,7 +32,7 @@ export default function AnimatedText({text, className=""}) {
 
     return (
         <>
-            <div className="flex items-center justify-center w-full mx-auto py-2 text-center overflow-hidden">
+            <div className="flex items-center justify-center w-full mx-auto py-0 lg:py-2 text-center overflow-hidden">
                 <motion.h1 className={`${className} inline-block w-full text-dark dark:text-light font-bold capitalize`} variants={quote} initial="initial" animate="animate">
                     {text.split(" ").map((word, index) =>
                         <motion.span key={word + '-' + index} className="inline-block" variants={singleWord}>

@@ -4,8 +4,8 @@ import { CircularText } from "./Icons";
 
 export default function HireMe() {
     return (
-        <div className="fixed left-4 bottom-4 flex items-center justify-center overflow-hidden">
-            <div className="w-48 h-auto flex items-center justify-center relative">
+        <div className="fixed left-[75%] bottom-[88%] md:left-[87%] md:bottom-[87%] lg:left-4 lg:bottom-4 flex items-center justify-center overflow-hidden">
+            <div className="w-24 lg:w-40 xl:w-48 h-auto flex items-center justify-center relative">
                 {/* <CircularText className={"fill-dark animate-spin-slow"} /> */}
                 <svg version="1.0" className="fill-dark dark:fill-light animate-spin-slow" xmlns="http://www.w3.org/2000/svg"
 viewBox="0 0 500 500"
@@ -130,7 +130,7 @@ m155 -180 c-1 -69 -44 -113 -110 -113 -36 0 -84 25 -78 41 3 10 169 119 181
 </g>
                 </svg>
                 
-                <Link href="https://www.instagram.com/akbarwp002/" target={"_blank"} className="flex items-center justify-center absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 bg-dark dark:bg-light text-light dark:text-dark shadow-md border border-solid border-dark dark:border-light w-20 h-20 rounded-full font-semibold hover:bg-light hover:dark:bg-dark hover:text-dark hover:dark:text-light transition">Hire Me</Link>
+                <Link href="https://www.instagram.com/akbarwp002/" target={"_blank"} className="flex items-center justify-center absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 bg-dark dark:bg-light text-light dark:text-dark shadow-md border border-solid border-dark dark:border-light text-[8px] lg:text-sm xl:text-base w-10 h-10 lg:w-[70px] lg:h-[70px] xl:w-20 xl:h-20 rounded-full font-semibold hover:bg-light hover:dark:bg-dark hover:text-dark hover:dark:text-light transition">Hire Me</Link>
             </div>
         </div>
     );

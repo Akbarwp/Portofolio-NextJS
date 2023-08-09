@@ -7,7 +7,7 @@ export default function Experience() {
     const Details = ({position, company, companyLink, time, address, work}) => {
         const ref = useRef(null);
 
-        return <li ref={ref} className='my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-center justify-between'>
+        return <li ref={ref} className='my-8 first:mt-0 last:mb-0 w-[90%] md:w-[80%] xl:w-[60%] mx-auto flex flex-col items-center justify-between'>
             <LilIcon reference={ref} />
             <motion.div initial={{ y:50 }} whileInView={{ y:0 }} transition={{ duration:0.5, type:'spring' }}>
                 <h3 className='capitalize font-bold text-2xl dark:text-light'>{position}&nbsp;<a href={companyLink} target='_blank' className='text-primary dark:text-primaryDark capitalize'>@{company}</a></h3>
@@ -31,11 +31,11 @@ export default function Experience() {
 
     return (
         <>
-            <div className='my-64'>
-                <h2 className='w-full mb-32 font-bold text-8xl text-center dark:text-light'>Experience</h2>
-                <div ref={ref} className='w-[75%] mx-auto relative'>
+            <div className='my-32 lg:my-64'>
+                <h2 className='w-full mb-20 xl:mb-32 font-bold text-5xl md:text-7xl xl:text-8xl text-center dark:text-light'>Experience</h2>
+                <div ref={ref} className='w-full xl:w-[75%] mx-auto relative'>
 
-                    <motion.div style={{ scaleY:scrollYProgress }} className='absolute left-9 top-0 w-[4px] h-full bg-dark dark:bg-light origin-top'></motion.div>
+                    <motion.div style={{ scaleY:scrollYProgress }} className='absolute left-0 md:left-5 lg:left-9 top-0 w-[4px] h-full bg-dark dark:bg-light origin-top'></motion.div>
 
                     <ul className='w-full ml-4 flex flex-col items-start justify-between'>
                         <Details position="Backend Developer" company="Deus Code" companyLink="https://deuscode.co.id/" time="April - June 2023" address="Surabaya"
