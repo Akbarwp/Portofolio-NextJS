@@ -29,7 +29,7 @@ export default function Home() {
                                 <p className="mb-3 lg:mb-0 font-medium text-sm md:text-base">Hai, how are you today? 👋 My name is </p>
                                 <AnimatedText text="Akbar Wibowo Putra" className="text-4xl lg:text-5xl xl:text-6xl text-center lg:text-left dark:text-light" />
                                 <p className="my-4 text-lg lg:text-base font-medium text-center lg:text-left">
-                                    I am a college student from Universitas Dinamika (Stikom Surabaya). And I majored in Information Systems. I am currently interested in Web Development on the Backend Developer. And also I am studying the PHP framework is <span className="text-[#FF2D20]">Laravel</span>. and as a complement I also learn <span className="text-[#61DAFB]">ReactJS</span> for the Front-end.
+                                    My name is Akbar Wibowo Putra, a fresh graduate from Universitas Dinamika majoring in Information Systems, with a strong interest and expertise in web development, particularly in Backend development using the <span className="text-[#FF2D20]">Laravel</span> framework. I have experience in building efficient web applications and am committed to continuously improving my technical skills and providing optimal solutions for business needs through technology development.
                                 </p>
 
                                 <div className="flex flex-col md:flex-row items-center justify-center lg:self-start mt-2 gap-y-3 md:gap-y-0 md:gap-x-3 lg:gap-x-0">

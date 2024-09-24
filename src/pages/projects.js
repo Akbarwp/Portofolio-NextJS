@@ -15,13 +15,16 @@ import paperusBack from '../../public/portofolio/10.2.Paperus-Backend.jpg';
 import laraSurvey from '../../public/portofolio/2.Laravel-react-survey.jpg';
 import uasBasiData from '../../public/portofolio/1.UAS-PBD.jpg';
 import uasBI from '../../public/portofolio/4.UAS-BI.jpg';
-import javaProgram from '../../public/portofolio/7.Belajar-Java.jpg';
-import phpProgram from '../../public/portofolio/8.Belajar-PHP.jpg';
-import tailwindProgram from '../../public/portofolio/6.Belajar-TailwindCSS.jpg';
-import portofolioBahasa from '../../public/portofolio/12.PortofolioBahasa.jpg';
+import laravelAHP from '../../public/portofolio/14.Laravel-AHP.jpg';
+import laravelTOPSIS from '../../public/portofolio/15.Laravel-TOPSIS.jpg';
+import laravelPresensi from '../../public/portofolio/16.Laravel-Presensi.jpg';
+import laravelBigData from '../../public/portofolio/17.Laravel-BigData.jpg';
+import laravelInertia from '../../public/portofolio/18.Laravel-Inertia.jpg';
 import uasIMK from '../../public/portofolio/3.UAS-IMK.png';
 import uasMobile from '../../public/portofolio/5.UAS-Mobile.png';
 import TransitionEffect from '@/components/TransitionEffect';
+
+import laravelLaundry from '../../public/portofolio/13.Laravel-Laundry.jpg';
 
 export default function project() {
 
@@ -163,17 +166,27 @@ export default function project() {
 
                     <div className='grid grid-cols-12 md:grid-cols-6 md:gap-14 lg:gap-24 gap-y-24 md:gap-y-32'>
                         <div className='col-span-12 md:col-span-6'>
-                            <FeaturedProject type="Webiste Blog" title="Laravel Blog" img={laravelBlog} link="https://github.com/Akbarwp/Laravel-Filament-Blog" github="https://github.com/Akbarwp/Laravel-Filament-Blog" summary="A project about creating a blog and also creating an admin panel using Filament. The blog also has a searching feature and a comments feature" />
+                            <FeaturedProject type="Tugas Akhir (Thesis)" title="Laravel Laundry" img={laravelLaundry} link="https://github.com/Akbarwp/Laravel-Laundry" github="https://github.com/Akbarwp/Laravel-Laundry" summary="This application is the result of my Tugas Akhir (Thesis), which I have been working on over the past few months. The project not only fulfills the requirements for completing my degree but also serves as an opportunity to apply the knowledge and skills I’ve gained throughout my studies. This research proposes a solution in the form of an application that can monitor the laundry program, facilitating the social program for Gamis, implementing priority services, and generating digital reports. The application is built using the Priority Service method, helping to manage data, transactions, and effectively monitor the Gamis social program in the laundry business." />
                         </div>
                         <div className='col-span-12 md:col-span-3'>
-                            <Project type="Website E-Commerce" title="Project Laravel E-Commerce (Frontend)" img={paperusFront} link="https://github.com/Akbarwp/Project-Paperus-ECommerce" github="https://github.com/Akbarwp/Project-Paperus-ECommerce" />
+                            <Project type="Decision Support System" title="Laravel TOPSIS" img={laravelTOPSIS} link="https://github.com/Akbarwp/Laravel-SPK-TOPSIS" github="https://github.com/Akbarwp/Laravel-SPK-TOPSIS" />
                         </div>
                         <div className='col-span-12 md:col-span-3'>
-                            <Project type="Admin Panel" title="Project Laravel E-Commerce (Backend)" img={paperusBack} link="https://github.com/Akbarwp/Project-Paperus-AdminPanel" github="https://github.com/Akbarwp/Project-Paperus-AdminPanel" />
+                            <Project type="Decision Support System" title="Laravel AHP" img={laravelAHP} link="https://github.com/Akbarwp/Laravel-SPK-AHP" github="https://github.com/Akbarwp/Laravel-SPK-AHP" />
                         </div>
 
                         <div className='col-span-12 md:col-span-6'>
-                            <FeaturedProject type="Admin Panel" title="Project Internship FLS Beaute" img={flsBeaute} link="https://github.com/Akbarwp/AdminPanel-FLS-Beaute" github="https://github.com/Akbarwp/AdminPanel-FLS-Beaute" summary="Project on creating a website admin panel for FLS Beaute during an Studi Independen internship at Deus Code. The admin panel has a multi-user feature consisting of superadmin, distributor and seller. Admin panel is used for managing sales, product management, product returns, etc." />
+                            <FeaturedProject type="Web Applications" title="Project Laravel React Survey" img={laraSurvey} link="https://github.com/Akbarwp/Laravel-React-Survey" github="https://github.com/Akbarwp/Laravel-React-Survey" summary="Laravel React Survey is a website that provides flexible survey creation features, similar to Google Forms. Built with Laravel and ReactJS, this site allows users to easily create, manage, and share surveys, while efficiently collecting responses in a modern and responsive interface." />
+                        </div>
+                        <div className='col-span-12 md:col-span-3'>
+                            <Project type="Web Applications" title="Laravel Presensi" img={laravelPresensi} link="https://github.com/Akbarwp/Laravel-Presensi" github="https://github.com/Akbarwp/Laravel-Presensi" />
+                        </div>
+                        <div className='col-span-12 md:col-span-3'>
+                            <Project type="Web Applications" title="Laravel Inertia" img={laravelInertia} link="https://github.com/Akbarwp/Laravel-Inertia" github="https://github.com/Akbarwp/Laravel-Inertia" />
+                        </div>
+
+                        <div className='col-span-12 md:col-span-6'>
+                            <FeaturedProject type="Sentiment Analysis" title="Laravel Big Data" img={laravelBigData} link="https://github.com/Akbarwp/Laravel-BigData" github="https://github.com/Akbarwp/Laravel-BigData" summary="Laravel Big Data is a website designed for sentiment analysis on reviews of the PLN Mobile application using Naive Bayer method. With features like Vectorizer and Confusion Matrix, this site enables users to understand and analyze user sentiments towards the application through structured data. The interactive interface and advanced analysis tools assist users in evaluating the quality of reviews and accurately identifying sentiment trends. The data used was obtained from the Kaggle website related to user reviews of the PLN Mobile application on Google Play. The data used can be accessed at the following link Kaggle PLN Mobile" />
                         </div>
                         <div className='col-span-12 md:col-span-3'>
                             <Project type="Desktop Applications" title="Final Exam Project Database Programming" img={uasBasiData} link="https://github.com/Akbarwp/UAS-PBD" github="https://github.com/Akbarwp/UAS-PBD" />
@@ -183,19 +196,17 @@ export default function project() {
                         </div>
 
                         <div className='col-span-12 md:col-span-6'>
-                            <FeaturedProject type="Website Survey" title="Project Laravel React Survey" img={laraSurvey} link="https://github.com/Akbarwp/Laravel-React-Survey" github="https://github.com/Akbarwp/Laravel-React-Survey" summary="The project is about website make a surveys using Laravel for Backend and ReactJS for Frontend, and a little animation using LottieFiles." />
+                            <FeaturedProject type="Web Applications" title="Laravel Blog" img={laravelBlog} link="https://github.com/Akbarwp/Laravel-Filament-Blog" github="https://github.com/Akbarwp/Laravel-Filament-Blog" summary="Laravel Blog is a website that offers comprehensive features for blog content management, including CRUD for blogs, users, and categories. Powered by Laravel, Laravel Breeze, and Filament, this site provides a user-friendly interface for creating, reading, editing, and deleting blog articles, as well as efficiently managing users and categories. The blog page is designed to showcase content attractively, making it easy for visitors to find and read relevant articles." />
                         </div>
                         <div className='col-span-12 md:col-span-3'>
-                            <Project type="Learning Outcomes" title="Java Programming" img={javaProgram} link="https://github.com/Akbarwp/Belajar-Java" github="https://github.com/Akbarwp/Belajar-Java" />
+                            <Project type="Website E-Commerce" title="Project Laravel E-Commerce (Frontend)" img={paperusFront} link="https://github.com/Akbarwp/Project-Paperus-ECommerce" github="https://github.com/Akbarwp/Project-Paperus-ECommerce" />
                         </div>
                         <div className='col-span-12 md:col-span-3'>
-                            <Project type="Learning Outcomes" title="PHP Programming" img={phpProgram} link="https://github.com/Akbarwp/Belajar-PHP" github="https://github.com/Akbarwp/Belajar-PHP" />
+                            <Project type="Admin Panel" title="Project Laravel E-Commerce (Backend)" img={paperusBack} link="https://github.com/Akbarwp/Project-Paperus-AdminPanel" github="https://github.com/Akbarwp/Project-Paperus-AdminPanel" />
                         </div>
-                        <div className='col-span-12 md:col-span-3'>
-                            <Project type="Learning Outcomes" title="TailwindCSS Programming" img={tailwindProgram} link="https://github.com/Akbarwp/Belajar-TailwindCSS" github="https://github.com/Akbarwp/Belajar-TailwindCSS" />
-                        </div>
-                        <div className='col-span-12 md:col-span-3'>
-                            <Project type="Portofolio" title="Portofolio with TailwindCSS" img={portofolioBahasa} link="https://akbarwp.github.io/Portofolio-TailwindCSS/" github="https://github.com/Akbarwp/Portofolio-TailwindCSS" />
+
+                        <div className='col-span-12 md:col-span-6'>
+                            <FeaturedProject type="Admin Panel" title="Project Internship FLS Beaute" img={flsBeaute} link="https://github.com/Akbarwp/AdminPanel-FLS-Beaute" github="https://github.com/Akbarwp/AdminPanel-FLS-Beaute" summary="Admin Panel FLS Beaute is a website that provides an admin panel for FLS Beaute, specifically designed during an independent study internship at Deus Code. This admin panel is equipped with multi-user features, including roles for superadmin, distributor, and seller, allowing for efficient management of sales and products. With an intuitive interface, this admin panel supports effective management, ensuring that each user can perform their functions easily and in an organized manner." />
                         </div>
 
                         <div className='col-span-12 md:col-span-3'>

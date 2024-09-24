@@ -62,30 +62,10 @@ export default function about() {
                         <div className='col-span-3 md:col-span-8 xl:col-span-3 flex flex-col items-start justify-center dark:text-light text-lg md:text-base md:order-last xl:order-first'>
                             <h2 className='mb-4 !text-xl font-bold uppercase text-dark/75 dark:text-light/75 mx-auto md:mx-0'>Introduce Myself</h2>
                             <p className='mb-10 md:mb-4 font-medium text-center md:text-left'>
-                                I&apos;m a college student from Universitas Dinamika (Stikom Surabaya). And I majored in Information Systems. I&apos;m currently interested in Web Development on the Back-end Developer. And also I&apos;m studying the PHP framework is <span className="text-[#FF2D20]">Laravel</span>. and as a complement I also learn <span className="text-[#61DAFB]">ReactJS</span> for the Front-end.
-                            </p>
-                            <div className='mb-4 font-medium'>
-                                Before that I also studied several other programming languages, like :
-                                <div className='pl-3 md:pl-0'>
-                                    <li>Java;</li>
-                                    <li>Web language (HTML, CSS, Javascript);</li>
-                                    <li>PHP;</li>
-                                    <li>SQL (Oracle, MySQL, SQLServer).</li>
-                                </div>
-                            </div>
-                            <div className='mb-10 md:mb-4 font-medium'>
-                                On Java I studied about :
-                                <div className='pl-3 md:pl-0'>
-                                    <li>OOP.</li>
-                                    <li>Make desktop applications integrated with MySQL and Oracle.</li>
-                                    <li>Make a mobile app integrated with Firebase.</li>
-                                </div>
-                            </div>
-                            <p className='mb-10 md:mb-4 font-medium text-center md:text-left'>
-                                When in Senior High School, I studied about editing video and photo, and photography. Because of that, I joined the HIMA Information System in university. I joined the communication media division for 1 year or period. And RnD UI/UX in Java Developer Group (JDG).
+                                My name is Akbar Wibowo Putra, a fresh graduate from Universitas Dinamika majoring in Information Systems, with a strong interest and expertise in web development, particularly in Backend development using the <span className="text-[#FF2D20]">Laravel</span> framework. I have experience in building efficient web applications and am committed to continuously improving my technical skills and providing optimal solutions for business needs through technology development.
                             </p>
                             <p className='font-medium text-center md:text-left'>
-                                Outside of programming, I also watch anime, play badminton, and gamer (maybe). Now I play some games like <span onClick={() => {addMe('valorant')}} className='hover:text-primary hover:dark:text-primaryDark cursor-pointer font-semibold'>Valorant</span>, <span onClick={() => {addMe('hi3')}} className='hover:text-primary hover:dark:text-primaryDark cursor-pointer font-semibold'>Honkai Impact 3</span>, <span onClick={() => {addMe('hsr')}} className='hover:text-primary hover:dark:text-primaryDark cursor-pointer font-semibold'>Honkai Star Rail</span>, PES 2017, and Rubik 4x4.
+                                Outside of programming, I also watch anime, play badminton, and play game. Now I play some games like <span onClick={() => {addMe('valorant')}} className='hover:text-primary hover:dark:text-primaryDark cursor-pointer font-semibold'>Valorant</span>, <span onClick={() => {addMe('hi3')}} className='hover:text-primary hover:dark:text-primaryDark cursor-pointer font-semibold'>Honkai Impact 3</span>, <span onClick={() => {addMe('hsr')}} className='hover:text-primary hover:dark:text-primaryDark cursor-pointer font-semibold'>Honkai Star Rail</span>, PES 2017, and Rubik 4x4.
                             </p>
                         </div>
 
@@ -97,9 +77,9 @@ export default function about() {
                         <div className='col-span-3 md:col-span-4 xl:col-span-2 flex flex-col items-center md:items-end justify-center md:justify-around text-right dark:text-light'>
                             <div className='flex flex-col items-center lg:items-end justify-center mb-10 md:mb-0'>
                                 <span className='inline-block text-5xl lg:text-6xl font-bold'>
-                                    <AnimatedNumbers value={2020} /> - now
+                                    <AnimatedNumbers value={2020} /> - <AnimatedNumbers value={2024} />
                                 </span>
-                                <p className='text-base'>Information System</p>
+                                <p className='text-base'>Bachelor&apos;s Information System</p>
                                 <h2 className='text-xl font-medium text-dark/75 dark:text-light/75'>
                                     Universitas Dinamika
                                 </h2>

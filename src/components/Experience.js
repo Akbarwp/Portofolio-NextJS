@@ -39,13 +39,13 @@ export default function Experience() {
 
                     <ul className='w-full ml-4 flex flex-col items-start justify-between'>
                         <Details position="Backend Developer" company="Deus Code" companyLink="https://deuscode.co.id/" time="April - June 2023" address="Surabaya"
-                        work="I at Deus Code was given a project using Laravel to create an admin panel for UMKM FLS Beaute and Paperus. FLS Beaute admin panel has a multi-user feature consisting of superadmin, distributor, and seller. This admin panel is used to manage sales, product management, and product returns. The Paperus admin panel is used for sales management and product management. The Paperus admin panel is used for the purposes of creating forms, from bidding forms to delivery forms." />
+                        work="Laravel project related to admin panel for MSME FLS Beaute. The FLS Beaute admin panel has a multi-user feature consisting of superadmin, distributors, and sellers which is used to manage sales, product management, and product returns. Laravel project related admin panel for Paperus. The Paperus admin panel is used for sales management and product management which is used for form creation purposes, from offer forms to delivery." />
 
                         <Details position="Communication Media Division" company="HMSI Undika" companyLink="https://www.instagram.com/hmsi_undika/" time="January 2021 - April 2022" address="Universitas Dinamika"
-                        work="I am in the Communication Media Division in charge of designing an Instagram feed to convey information about information from campus, events, or competitions." />
+                        work="I was responsible for designing Instagram feeds to deliver various important information to students and the academic community, including campus updates, events such as webinars, and competition-related information. In this role, I focused on creating visually appealing and informative content to increase engagement and effectively disseminate information through the university’s social media platforms." />
 
                         <Details position="RnD UI/UX" company="Java Developer Group (JDG)" companyLink="https://www.instagram.com/javadevgroup/" time="December 2020 - January 2022" address="Universitas Dinamika"
-                        work="I am in charge of designing events and competitions held by JDG itself. And studied about UI/UX on Mobile and Website." />
+                        work="I played a role in organizing events and competitions held by JDG. Additionally, I studied and developed skills in UI/UX for mobile and website platforms, focusing on creating optimal user experiences and intuitive interface designs." />
                     </ul>
                 </div>
             </div>
